@@ -55,4 +55,4 @@ def before_request():
 @app.route('/')
 def index():
     '''The home page'''
-    return render_template('5-index.html', username=g.user["name"])
+    return render_template('5-index.html')
